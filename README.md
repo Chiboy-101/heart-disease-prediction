@@ -86,6 +86,7 @@ Final tuned Gradient Boosting Classifier results:
 | F1 Score  | **0.893** |
 | ROC-AUC   | **0.931** |
 
+
 **Why This Matters**
 
 ✅ High Recall → detects most heart disease cases
@@ -93,6 +94,7 @@ Final tuned Gradient Boosting Classifier results:
 ✅ Strong ROC-AUC → excellent class separation
 
 ✅ Balanced metrics → clinically reliable predictions
+
 
 **Why Recall Was Optimized**
 
