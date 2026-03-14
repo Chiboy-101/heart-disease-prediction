@@ -5,10 +5,15 @@ An end-to-end Machine Learning + Explainable AI project that predicts the likeli
 **This project demonstrates the complete ML lifecycle:**
 
 ✅ Data preprocessing & feature engineering
+
 ✅ Exploratory Data Analysis (EDA)
+
 ✅ Model comparison & evaluation
+
 ✅ Hyperparameter tuning
+
 ✅ Explainable AI using SHAP
+
 ✅ Deployment with Streamlit
 
 ---
@@ -18,7 +23,9 @@ An end-to-end Machine Learning + Explainable AI project that predicts the likeli
 The system allows users to input patient health information and instantly receive:
 
 ✅ Risk prediction
+
 ✅ Probability score
+
 ✅ Explainable AI visualization showing contributing factors
 
 ---
@@ -34,25 +41,29 @@ Dataset Author: fedesoriano (Kaggle)
 **Features Included**
 
 ✅ Age
+
 ✅ Sex
+
 ✅ Chest Pain Type
+
 ✅ Resting Blood Pressure
+
 ✅ Cholesterol
+
 ✅ Fasting Blood Sugar
+
 ✅ Resting ECG
+
 ✅ Maximum Heart Rate
+
 ✅ Exercise-Induced Angina
+
 ✅ Oldpeak
+
 ✅ ST Slope
+
 ✅ Heart Disease (Target)
 
-_The dataset is excluded from this repository due to size limitations._
-
-After downloading:
-
-```bash
-Place heart.csv in the project root folder
-```
 
 ---
 
@@ -71,7 +82,9 @@ Final tuned Gradient Boosting Classifier results:
 **Why This Matters**
 
 ✅ High Recall → detects most heart disease cases
+
 ✅ Strong ROC-AUC → excellent class separation
+
 ✅ Balanced metrics → clinically reliable predictions
 
 **Why Recall Was Optimized**
@@ -91,6 +104,7 @@ The project integrates SHAP **(SHapley Additive Explanations)** to make predicti
 Users can see:
 
 ✅ Features increasing risk 🔴
+
 ✅ Features decreasing risk 🔵
 
 This makes the model suitable for healthcare decision support.
@@ -102,13 +116,17 @@ This makes the model suitable for healthcare decision support.
 The Streamlit interface enables:
 
 ✅ Interactive patient input
+
 ✅ Real-time prediction
+
 ✅ Risk probability visualization
+
 ✅ SHAP explanation dashboard
 
 **Example Output**
 
 ⚠️ High Risk of Heart Disease
+
 ✅ Low Risk of Heart Disease
 
 Feature contribution explanation
@@ -154,6 +172,7 @@ streamlit run src/app.py
 ## ⚠️ Disclaimer
 
 This project is for educational and research purposes only.
+
 It is not a medical diagnostic tool and should not replace professional medical advice.
 
 ---
