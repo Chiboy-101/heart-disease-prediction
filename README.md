@@ -18,17 +18,6 @@ An end-to-end Machine Learning + Explainable AI project that predicts the likeli
 
 ---
 
-## 🚀 Live Application
-
-The system allows users to input patient health information and instantly receive:
-
-✅ Risk prediction
-
-✅ Probability score
-
-✅ Explainable AI visualization showing contributing factors
-
----
 
 ## 📊 Dataset
 
