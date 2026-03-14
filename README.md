@@ -133,36 +133,48 @@ Feature contribution explanation
 
 ---
 
-## 🛠 Installation
+## 🚀 Live Application
+
+The app is deployed and accessible online — no installation required.
+
+👉 **[Try it live here](https://heart-disease-prediction-gry5jjqbrx9qfq6cwqybsv.streamlit.app/)**
+
+Simply input patient health information and instantly receive:
+✅ Risk prediction
+
+✅ Probability score
+
+✅ Explainable AI visualization showing contributing factors
+
+---
+
+## 🛠 Local Installation
+
+Prefer to run it locally? Follow these steps:
 
 1. Clone Repository
-
 ```bash
 git clone https://github.com/yourusername/heart-disease-prediction.git
 cd heart-disease-prediction
 ```
 
 2. Create a virtual environment and activate it
-
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
 3. Install Dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
 
 4. Train the model
-
 ```bash
-python train.py # which creates the models/ folder with all the saved models in it
+python train.py
 ```
 
 5. Run the application
-
 ```bash
 streamlit run src/app.py
 ```
