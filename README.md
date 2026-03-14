@@ -172,7 +172,7 @@ pip install -r requirements.txt
 
 4. Train the model
 ```bash
-python train.py
+python src/train.py
 ```
 
 5. Run the application
