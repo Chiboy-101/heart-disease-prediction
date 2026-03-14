@@ -140,6 +140,7 @@ The app is deployed and accessible online — no installation required.
 👉 **[Try it live here](https://heart-disease-prediction-gry5jjqbrx9qfq6cwqybsv.streamlit.app/)**
 
 Simply input patient health information and instantly receive:
+
 ✅ Risk prediction
 
 ✅ Probability score
